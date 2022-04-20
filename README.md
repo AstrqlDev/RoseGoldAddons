@@ -2,6 +2,8 @@ This project is discontinued.\
 Most of the code is very bad, if you copy something make sure you fix it up.\
 Thanks to the ones who have supported me during the making of this
 
+Download - https://github.com/AstrqlDev/RoseGoldAddons/releases/tag/Release
+
 # RoseGoldAddons Feature List:
 ### Keybinds:
 All the features below are clickable to open a drop-down with more information inside.
