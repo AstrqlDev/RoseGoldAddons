@@ -1,0 +1,94 @@
+plugins {
+    id "net.minecraftforge.gradle.forge" version "6f53277"
+    id "com.github.johnrengelman.shadow" version "6.1.0"
+    id "org.spongepowered.mixin" version "0.6-SNAPSHOT"
+}
+
+version = "2.8.0"
+group = "rosegoldaddons"
+archivesBaseName = "RoseGoldAddons"
+
+sourceCompatibility = targetCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+minecraft {
+    version = "1.8.9-11.15.1.2318-1.8.9"
+    runDir = "run"
+    mappings = "stable_22"
+    makeObfSourceJar = false
+    clientRunArgs += ["--tweakClass gg.essential.loader.stage0.EssentialSetupTweaker", "--mixin mixins.rosegoldaddons.json"]
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+    maven { url "https://repo.spongepowered.org/repository/maven-public/" }
+    maven { url "https://repo.sk1er.club/repository/maven-public" }
+    maven { url "https://repo.sk1er.club/repository/maven-releases/" }
+}
+
+configurations {
+    packageLib
+    configurations.implementation.extendsFrom(configurations.packageLib)
+}
+
+
+dependencies {
+    annotationProcessor("org.spongepowered:mixin:0.7.11-SNAPSHOT")
+    implementation("org.spongepowered:mixin:0.7.11-SNAPSHOT")
+    packageLib("gg.essential:loader-launchwrapper:1.1.1")
+    implementation("gg.essential:essential-1.8.9-forge:1498")
+}
+
+mixin {
+    disableRefMapWarning = true
+    defaultObfuscationEnv searge
+    add sourceSets.main, "mixins.rosegoldaddons.refmap.json"
+}
+
+jar {
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest.attributes(
+            "FMLCorePluginContainsFMLMod": true,
+            "FMLCorePlugin": "rosegoldaddons.FMLLoadingPlugin",
+            "ForceLoadAsMod": true,
+            "MixinConfigs": "mixins.rosegoldaddons.json",
+            "ModSide": "CLIENT",
+            "TweakClass": "gg.essential.loader.stage0.EssentialSetupTweaker",
+            "TweakOrder": "0"
+    )
+
+    enabled = false
+}
+
+shadowJar {
+    archiveFileName = jar.archiveFileName
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    configurations = [project.configurations.packageLib]
+}
+
+reobf {
+    shadowJar {
+        classpath = sourceSets.main.compileClasspath
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+sourceSets {
+    main { output.resourcesDir = java.outputDir }
+}
+
+tasks.reobfJar.dependsOn(shadowJar)
