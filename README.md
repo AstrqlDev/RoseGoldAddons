@@ -130,4 +130,4 @@ Usage: `/usecooldown [milliseconds] [left]`
 #### More info about Ghost Macro:
 - A custom macro can be set to automatically use Soul Whip to shoot  at the closest ghost
 - A custom macro can be set to automatically use healing items to stay alive
-- It is also possible to use a different mod, such as [Oringo Client](https://shadyaddons.com/other-mods)'s Kill Aura to automatically kill ghosts in combination with custom macros
+- It is also possible to use a different mod, such as [Oringo Client](https://github.com/AstrqlDev/Oringo-Client/releases/tag/Release)'s Kill Aura to automatically kill ghosts in combination with custom macros
