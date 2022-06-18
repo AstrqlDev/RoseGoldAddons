@@ -1,4 +1,4 @@
-REGARDING SKYTILS USERS: https://imgur.com/a/N8ckKlD <---
+**REGARDING SKYTILS USERS: https://imgur.com/a/N8ckKlD <--- (VERY IMPORTANT!! PLEASE READ) <---**
 
 This project is discontinued.\
 Most of the code is very bad, if you copy something make sure you fix it up.\
