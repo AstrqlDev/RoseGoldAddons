@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.rosegoldaddons.json
+ModSide: CLIENT
+FMLCorePluginContainsFMLMod: true
+TweakClass: gg.essential.loader.stage0.EssentialSetupTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: rosegoldaddons.FMLLoadingPlugin
+

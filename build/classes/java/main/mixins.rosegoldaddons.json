@@ -1,0 +1,16 @@
+{
+  "minVersion": "0.6",
+  "compatibilityLevel": "JAVA_8",
+  "package": "rosegoldaddons.mixins",
+  "refmap": "mixins.rosegoldaddons.refmap.json",
+  "mixins": [
+    "MixinNetworkManager"
+  ],
+  "client": [
+    "MixinEntityPlayer",
+    "MixinMinecraft",
+    "MixinRendererLivingEntity",
+    "MixinEntity",
+    "MixinRenderString"
+  ]
+}

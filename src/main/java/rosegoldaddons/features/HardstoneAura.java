@@ -340,6 +340,7 @@ public class HardstoneAura {
     }
 
     private Vec3 closestChest() {
+        if(!Main.configFile.includeChests) return null;
         if(Main.mc.theWorld == null) return null;
         if(Main.mc.thePlayer == null) return null;
         int r = 6;

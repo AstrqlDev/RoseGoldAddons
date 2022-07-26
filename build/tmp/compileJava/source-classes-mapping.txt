@@ -1,0 +1,127 @@
+rosegoldaddons/utils/RenderUtils.java
+ rosegoldaddons.utils.RenderUtils
+rosegoldaddons/events/ReceivePacketEvent.java
+ rosegoldaddons.events.ReceivePacketEvent
+rosegoldaddons/features/MithrilNuker.java
+ rosegoldaddons.features.MithrilNuker
+rosegoldaddons/features/CropNuker.java
+ rosegoldaddons.features.CropNuker
+ rosegoldaddons.features.CropNuker$1
+rosegoldaddons/events/ClickEvent.java
+ rosegoldaddons.events.ClickEvent
+ rosegoldaddons.events.ClickEvent$Left
+ rosegoldaddons.events.ClickEvent$Middle
+ rosegoldaddons.events.ClickEvent$Right
+rosegoldaddons/mixins/MixinRenderString.java
+ rosegoldaddons.mixins.MixinRenderString
+rosegoldaddons/commands/UseCooldown.java
+ rosegoldaddons.commands.UseCooldown
+rosegoldaddons/utils/ChatUtils.java
+ rosegoldaddons.utils.ChatUtils
+rosegoldaddons/features/AutoSlayer.java
+ rosegoldaddons.features.AutoSlayer
+rosegoldaddons/features/ForagingIslandMacro.java
+ rosegoldaddons.features.ForagingIslandMacro
+rosegoldaddons/features/SwordSwapping.java
+ rosegoldaddons.features.SwordSwapping
+rosegoldaddons/mixins/MixinRendererLivingEntity.java
+ rosegoldaddons.mixins.MixinRendererLivingEntity
+rosegoldaddons/features/NecronAimbot.java
+ rosegoldaddons.features.NecronAimbot
+rosegoldaddons/features/GhostMacro.java
+ rosegoldaddons.features.GhostMacro
+rosegoldaddons/mixins/MixinEntityPlayer.java
+ rosegoldaddons.mixins.MixinEntityPlayer
+rosegoldaddons/utils/OpenSkyblockGui.java
+ rosegoldaddons.utils.OpenSkyblockGui
+rosegoldaddons/utils/DiscordWebhook.java
+ rosegoldaddons.utils.DiscordWebhook
+ rosegoldaddons.utils.DiscordWebhook$1
+ rosegoldaddons.utils.DiscordWebhook$EmbedObject
+ rosegoldaddons.utils.DiscordWebhook$EmbedObject$Author
+ rosegoldaddons.utils.DiscordWebhook$EmbedObject$Field
+ rosegoldaddons.utils.DiscordWebhook$EmbedObject$Footer
+ rosegoldaddons.utils.DiscordWebhook$EmbedObject$Image
+ rosegoldaddons.utils.DiscordWebhook$EmbedObject$Thumbnail
+ rosegoldaddons.utils.DiscordWebhook$JSONObject
+rosegoldaddons/features/DungeonESP.java
+ rosegoldaddons.features.DungeonESP
+rosegoldaddons/mixins/MixinNetworkManager.java
+ rosegoldaddons.mixins.MixinNetworkManager
+rosegoldaddons/features/ForagingNuker.java
+ rosegoldaddons.features.ForagingNuker
+rosegoldaddons/commands/SexPlayer.java
+ rosegoldaddons.commands.SexPlayer
+rosegoldaddons/utils/ShadyRotation.java
+ rosegoldaddons.utils.ShadyRotation
+ rosegoldaddons.utils.ShadyRotation$Rotation
+rosegoldaddons/utils/RotationUtils.java
+ rosegoldaddons.utils.RotationUtils
+rosegoldaddons/features/MithrilMacro.java
+ rosegoldaddons.features.MithrilMacro
+rosegoldaddons/OpenSettings.java
+ rosegoldaddons.OpenSettings
+rosegoldaddons/Main.java
+ rosegoldaddons.Main
+rosegoldaddons/commands/AllEntities.java
+ rosegoldaddons.commands.AllEntities
+rosegoldaddons/FMLLoadingPlugin.java
+ rosegoldaddons.FMLLoadingPlugin
+rosegoldaddons/features/PartyUntransfer.java
+ rosegoldaddons.features.PartyUntransfer
+rosegoldaddons/features/SexAura.java
+ rosegoldaddons.features.SexAura
+rosegoldaddons/commands/Rosedrobe.java
+ rosegoldaddons.commands.Rosedrobe
+rosegoldaddons/features/AutoArrowAlign.java
+ rosegoldaddons.features.AutoArrowAlign
+rosegoldaddons/features/GemstoneAura.java
+ rosegoldaddons.features.GemstoneAura
+rosegoldaddons/features/PingWorldChange.java
+ rosegoldaddons.features.PingWorldChange
+rosegoldaddons/features/CustomItemMacro.java
+ rosegoldaddons.features.CustomItemMacro
+rosegoldaddons/features/EntityReach.java
+ rosegoldaddons.features.EntityReach
+rosegoldaddons/mixins/MixinEntity.java
+ rosegoldaddons.mixins.MixinEntity
+rosegoldaddons/utils/ScoreboardUtils.java
+ rosegoldaddons.utils.ScoreboardUtils
+rosegoldaddons/utils/Rotation.java
+ rosegoldaddons.utils.Rotation
+rosegoldaddons/mixins/MixinMinecraft.java
+ rosegoldaddons.mixins.MixinMinecraft
+rosegoldaddons/features/AutoReady.java
+ rosegoldaddons.features.AutoReady
+rosegoldaddons/utils/PlayerUtils.java
+ rosegoldaddons.utils.PlayerUtils
+rosegoldaddons/features/BloodTriggerBot.java
+ rosegoldaddons.features.BloodTriggerBot
+rosegoldaddons/features/PowderMacro.java
+ rosegoldaddons.features.PowderMacro
+rosegoldaddons/features/PinglessMining.java
+ rosegoldaddons.features.PinglessMining
+rosegoldaddons/commands/LobbySwap.java
+ rosegoldaddons.commands.LobbySwap
+rosegoldaddons/commands/Backpack.java
+ rosegoldaddons.commands.Backpack
+rosegoldaddons/features/BrewingMacro.java
+ rosegoldaddons.features.BrewingMacro
+rosegoldaddons/features/ArmorStandESPs.java
+ rosegoldaddons.features.ArmorStandESPs
+rosegoldaddons/features/HardstoneAura.java
+ rosegoldaddons.features.HardstoneAura
+ rosegoldaddons.features.HardstoneAura$1
+rosegoldaddons/commands/Rosepet.java
+ rosegoldaddons.commands.Rosepet
+rosegoldaddons/features/AutoGhostBlock.java
+ rosegoldaddons.features.AutoGhostBlock
+rosegoldaddons/features/EndermanMacro.java
+ rosegoldaddons.features.EndermanMacro
+rosegoldaddons/events/RenderLivingEntityEvent.java
+ rosegoldaddons.events.RenderLivingEntityEvent
+rosegoldaddons/Config.java
+ rosegoldaddons.Config
+ rosegoldaddons.Config$ConfigSorting
+rosegoldaddons/utils/BlockUtils.java
+ rosegoldaddons.utils.BlockUtils

@@ -162,6 +162,10 @@ public class Config extends Vigilant {
             category = "Mining", subcategory = "General")
     public boolean includeOres = false;
 
+    @Property(type = PropertyType.SWITCH, name = "Include Chests", description = "Hardstone Nuker, Mithril Nuker and Mithril Macro will also target Chests",
+            category = "Mining", subcategory = "General")
+    public boolean includeChests = false;
+
     @Property(type = PropertyType.SWITCH, name = "Include Sand & Gravel", description = "Hardstone Nuker will also target sand and gravel",
             category = "Mining", subcategory = "General")
     public boolean includeExcavatable = false;

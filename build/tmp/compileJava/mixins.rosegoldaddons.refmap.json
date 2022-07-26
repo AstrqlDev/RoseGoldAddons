@@ -1,0 +1,70 @@
+{
+  "mappings": {
+    "rosegoldaddons/mixins/MixinNetworkManager": {
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "rosegoldaddons/mixins/MixinEntityPlayer": {
+      "getDisplayName": "Lnet/minecraft/entity/player/EntityPlayer;func_145748_c_()Lnet/minecraft/util/IChatComponent;"
+    },
+    "rosegoldaddons/mixins/MixinEntity": {
+      "getDisplayName": "Lnet/minecraft/entity/Entity;func_145748_c_()Lnet/minecraft/util/IChatComponent;"
+    },
+    "rosegoldaddons/mixins/MixinMinecraft": {
+      "middleClickMouse": "Lnet/minecraft/client/Minecraft;func_147112_ai()V",
+      "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+      "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V"
+    },
+    "rosegoldaddons/mixins/MixinRendererLivingEntity": {
+      "renderModel": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77036_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V"
+    },
+    "rosegoldaddons/mixins/MixinRenderString": {
+      "drawString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_175065_a(Ljava/lang/String;FFIZ)I"
+    }
+  },
+  "data": {
+    "notch": {
+      "rosegoldaddons/mixins/MixinNetworkManager": {
+        "channelRead0": "Lek;a(Lio/netty/channel/ChannelHandlerContext;Lff;)V"
+      },
+      "rosegoldaddons/mixins/MixinEntityPlayer": {
+        "getDisplayName": "Lwn;f_()Leu;"
+      },
+      "rosegoldaddons/mixins/MixinEntity": {
+        "getDisplayName": "Lpk;f_()Leu;"
+      },
+      "rosegoldaddons/mixins/MixinMinecraft": {
+        "middleClickMouse": "Lave;az()V",
+        "clickMouse": "Lave;aw()V",
+        "rightClickMouse": "Lave;ax()V"
+      },
+      "rosegoldaddons/mixins/MixinRendererLivingEntity": {
+        "renderModel": "Lbjl;a(Lpr;FFFFFF)V"
+      },
+      "rosegoldaddons/mixins/MixinRenderString": {
+        "drawString(Ljava/lang/String;FFIZ)I": "Lavn;a(Ljava/lang/String;FFIZ)I"
+      }
+    },
+    "searge": {
+      "rosegoldaddons/mixins/MixinNetworkManager": {
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "rosegoldaddons/mixins/MixinEntityPlayer": {
+        "getDisplayName": "Lnet/minecraft/entity/player/EntityPlayer;func_145748_c_()Lnet/minecraft/util/IChatComponent;"
+      },
+      "rosegoldaddons/mixins/MixinEntity": {
+        "getDisplayName": "Lnet/minecraft/entity/Entity;func_145748_c_()Lnet/minecraft/util/IChatComponent;"
+      },
+      "rosegoldaddons/mixins/MixinMinecraft": {
+        "middleClickMouse": "Lnet/minecraft/client/Minecraft;func_147112_ai()V",
+        "clickMouse": "Lnet/minecraft/client/Minecraft;func_147116_af()V",
+        "rightClickMouse": "Lnet/minecraft/client/Minecraft;func_147121_ag()V"
+      },
+      "rosegoldaddons/mixins/MixinRendererLivingEntity": {
+        "renderModel": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_77036_a(Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V"
+      },
+      "rosegoldaddons/mixins/MixinRenderString": {
+        "drawString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_175065_a(Ljava/lang/String;FFIZ)I"
+      }
+    }
+  }
+}

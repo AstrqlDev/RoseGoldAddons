@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b89fb74-9301-41d2-92af-810d635d420b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/gradle.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForgeTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForgeTemplate.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ForgeTemplate.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/mcmod.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/mixins.rosegoldaddons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/Config$ConfigSorting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/FMLLoadingPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/OpenSettings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/AllEntities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/Backpack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/LobbySwap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/Rosedrobe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/Rosepet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/SexPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/commands/UseCooldown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/events/ClickEvent$Left.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/events/ClickEvent$Middle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/events/ClickEvent$Right.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/events/ClickEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/events/ReceivePacketEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/events/RenderLivingEntityEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/ArmorStandESPs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/AutoArrowAlign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/AutoGhostBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/AutoReady.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/AutoSlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/BloodTriggerBot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/BrewingMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/CropNuker$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/CropNuker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/CustomItemMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/DungeonESP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/EndermanMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/EntityReach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/ForagingIslandMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/ForagingNuker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/GemstoneAura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/GhostMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/HardstoneAura$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/HardstoneAura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/MithrilMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/MithrilNuker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/NecronAimbot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/PartyUntransfer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/PingWorldChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/PinglessMining.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/PowderMacro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/SexAura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/features/SwordSwapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/mixins/MixinEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/mixins/MixinEntityPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/mixins/MixinMinecraft.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/mixins/MixinNetworkManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/mixins/MixinRenderString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/mixins/MixinRendererLivingEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/BlockUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/ChatUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$EmbedObject$Author.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$EmbedObject$Field.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$EmbedObject$Footer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$EmbedObject$Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$EmbedObject$Thumbnail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$EmbedObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook$JSONObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/DiscordWebhook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/OpenSkyblockGui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/PlayerUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/RenderUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/Rotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/RotationUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/ScoreboardUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/ShadyRotation$Rotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/rosegoldaddons/utils/ShadyRotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/RoseGoldAddons-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/FMLLoadingPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/OpenSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/AllEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/Backpack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/LobbySwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/Rosedrobe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/Rosepet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/SexPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/commands/UseCooldown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/events/ClickEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/events/ReceivePacketEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/events/RenderLivingEntityEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/ArmorStandESPs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/AutoArrowAlign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/AutoGhostBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/AutoReady.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/AutoSlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/BloodTriggerBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/BrewingMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/CropNuker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/CustomItemMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/DungeonESP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/EndermanMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/EntityReach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/ForagingIslandMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/ForagingNuker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/GemstoneAura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/GhostMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/HardstoneAura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/MithrilMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/MithrilNuker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/NecronAimbot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/PartyUntransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/PingWorldChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/PinglessMining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/PowderMacro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/SexAura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/features/SwordSwapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/mixins/MixinEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/mixins/MixinEntityPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/mixins/MixinMinecraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/mixins/MixinNetworkManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/mixins/MixinRenderString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/mixins/MixinRendererLivingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/BlockUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/ChatUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/DiscordWebhook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/OpenSkyblockGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/PlayerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/RenderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/Rotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/RotationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/ScoreboardUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sources/main/java/rosegoldaddons/utils/ShadyRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileJava-refmap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/mcp-notch.srg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/mcp-srg.srg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/mixins.rosegoldaddons.refmap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfJar/input3319413070847258481.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfJar/obfuscated1608916573388015173.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfJar/preTransformed5117722470933108651.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default3467459114721491590.srg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines8539535459697695146.srg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfShadowJar/input3107081726093123153.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfShadowJar/obfuscated4602819460743303216.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-default275241550857600639.srg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/reobfShadowJar/reobf-extraLines361416323989584992.srg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rosegoldaddons/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rosegoldaddons/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rosegoldaddons/features/HardstoneAura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rosegoldaddons/features/HardstoneAura.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectId" id="2CTntk3Ngg0kpahLXLcDGruLbqM" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration default="true" factoryName="Applet" type="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option enabled="false" name="BuildArtifacts" />
+        <option enabled="true" name="Make" />
+      </method>
+    </configuration>
+    <configuration default="true" name="&lt;template&gt;" selected="false" type="WebApp">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Minecraft Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <module name="ForgeTemplate.main" />
+      <option name="PROGRAM_PARAMETERS" value="--tweakClass gg.essential.loader.stage0.EssentialSetupTweaker --mixin mixins.rosegoldaddons.json" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../RoseGoldAddons\run" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Client" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--tweakClass gg.essential.loader.stage0.EssentialSetupTweaker --mixin mixins.rosegoldaddons.json" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../RoseGoldAddons\run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ForgeTemplate.main" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Minecraft Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <module name="ForgeTemplate.main" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../RoseGoldAddons\run" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Server" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../RoseGoldAddons\run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ForgeTemplate.main" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="UPDATE_RUN_STATUS" value="false" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b89fb74-9301-41d2-92af-810d635d420b" name="Changes" comment="" />
+      <created>1658835680673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658835680673</updated>
+      <workItem from="1658835673659" duration="371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+</project>
